@@ -88,7 +88,7 @@
           <a href="">
             <img
               class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full"
-              src="../static/images/linkedinC.svg"
+              src="../static/tentang/linkedinC.svg"
               alt=""
             />
           </a>
