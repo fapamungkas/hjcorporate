@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main px-6 md:px-32">
-      <Navbar />
+      <NavbarNew />
       <div class="grid md:grid-cols-2 gap-x-32 pt-20">
         <div class="md:text-6xl text-[40px] tracking-wide">
           <h2 class="pr-5 font-semibold">

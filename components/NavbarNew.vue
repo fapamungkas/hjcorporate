@@ -51,7 +51,7 @@
         >
           <!-- Navigation  Links-->
           <div class="text-sm sm:flex-grow sm:text-right">
-            <div class="mr-40">
+            <div class="">
               <a
                 href="/"
                 class="
@@ -60,7 +60,7 @@
                   mt-4
                   sm:mx-3 sm:inline-block sm:mt-0
                   text-teal-lighter
-                  hover:text-[#187C79]
+                  hover:text-green-800
                   mr-4
                 "
               >
@@ -74,28 +74,14 @@
                   mt-4
                   sm:mx-3 sm:inline-block sm:mt-0
                   text-teal-lighter
-                  hover:text-[#187C79]
+                  hover:text-green-800
                 "
               >
                 Portofolio
               </a>
               <a
-                href="/portfolio"
-                class="
-                  no-underline
-                  block
-                  mt-4
-                  sm:mx-3 sm:inline-block sm:mt-0
-                  text-teal-lighter
-                  hover:text-[#187C79]
-                "
-              >
-                Tentang Kami
-              </a>
-              <a
                 href="/tentang"
                 class="
-                  kontak
                   no-underline
                   block
                   mt-4
@@ -104,47 +90,32 @@
                   hover:text-green-800
                 "
               >
+                Tentang Kami
+              </a>
+               <a
+                href="/contact"
+                class="
+                  md:max-w-[170px]
+                  max-w-[135px]
+                  no-underline
+                  block
+                  mt-4
+                  md:px-8
+                  px-4
+                  md:py-4
+                  py-2
+                  sm:mx-3 sm:inline-block sm:mt-0
+                  text-teal-lighter
+                  border hover:bg-[#187C79]
+                  text-black
+                  hover:text-white
+                  rounded-lg
+                  text-center
+                "
+              >
                 Kontak Kami
               </a>
             </div>
-            <a
-              href="/contact"
-              class="
-                tentang
-                absolute
-                no-underline
-                block
-                pt-4
-                sm:px-6 sm:inline-block sm:pt-0
-                text-teal-lighter text-white
-                pr-4
-              "
-            >
-              <img
-                src="../static/images/star.png"
-                alt="star"
-                class="absolute top-0 right-0"
-              />
-              <h1 class="text-base leading-5 text-left">
-                Siap <br />
-                berkolaborasi?
-              </h1>
-              <p class="p-card text-sm pt-3 flex text-left text-yellow-100">
-                Kontak kami
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 pl-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </p>
-            </a>
           </div>
         </div>
       </nav>
@@ -154,6 +125,7 @@
 
 <script>
 export default {
+  name: "NavbarNew",
   data() {
     return {
       open: false,
@@ -166,8 +138,8 @@ export default {
   },
 };
 </script>
-<style>
-.tentang {
+
+<style.tentang {
   height: 9rem;
   top: 0;
   right: 0;
@@ -191,5 +163,6 @@ export default {
   .kontak {
     display: block;
   }
-}
+}>
+
 </style>

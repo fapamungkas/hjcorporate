@@ -8,6 +8,8 @@
       <div class="modal__content">
         <h1>CSS Only Modal</h1>
 
+        <Modal />
+
         <p>
           You can use the :target pseudo-class to create a modals with Zero
           JavaScript. Enjoy!
@@ -77,8 +79,7 @@ export default {};
 .modal__content {
   border-radius: 4px;
   position: relative;
-  width: 500px;
-  max-width: 90%;
+  max-width: 1440px;
   background: #fff;
   padding: 1em 2em;
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main md:px-32 px-6">
-      <Navbar />
+      <NavbarNew />
       <div class="tagHeader">
         <div>
           <h3
@@ -66,7 +66,7 @@
               </p>
             </div>
             <!-- Button -->
-            <div class="md:pl-80">
+            <div class="md:pl-72">
               <div class="w-auto tracking-wide mb-20 mx-1 relative">
                 <button
                   class="
@@ -77,12 +77,12 @@
                     rounded-lg
                     font-medium
                     text-green-700
-                    hover:text-white hover:bg-green-700
+                    hover:text-white hover:bg-[#187C79]
                     items-end
                     mx-1
                   "
                 >
-                  Kontak Kami
+                  Kunjungi Website
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6 ml-4"
