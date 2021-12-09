@@ -1,6 +1,26 @@
 <template>
   <div class="contactPage">
-    <div class="md:px-32 px-6 w-full flex md:flex-row flex-col justify-between">
+    <div
+      class="
+        md:px-32
+        px-6
+        w-full
+        flex
+        md:flex-row
+        flex-col
+        justify-between
+        relative
+      "
+    >
+      <div class="pt-5 absolute z-10 right-[35px] top-0">
+        <a href="/">
+          <img
+            class="bg-[#A3A07C] rounded-[50%] items-end"
+            src="../static/images/delete.svg"
+            alt=""
+          />
+        </a>
+      </div>
       <div class="md:pt-20 pt-10 pr-12 md:w-[45%] w-full">
         <h2 class="md:text-6xl text-[40px] text-white font-semibold pb-4">
           Kontak <span class="textUs">Kami</span>

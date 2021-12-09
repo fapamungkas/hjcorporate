@@ -34,28 +34,10 @@
       <!-- Header Images -->
       <div class="w-full md:w-1/2 flex justify-center items-center relative">
         <img
-          src="../static/images/masking.jpg"
+          class="md:scale-110 scale-100"
+          src="../static/images/imgDesktop.png"
           alt="headingImages"
-          style="height: 500px"
         />
-        <div class="first-glass glass-card flex ml-80 h-28 absolute rounded-lg">
-          <div class="flex items-center">
-            <img class="pl-7" src="../static/images/iconPeople.svg" alt="" />
-          </div>
-          <div class="flex flex-col justify-start pl-4">
-            <h3 class="font-semibold text-3xl pt-6">50 +</h3>
-            <h3 class="font-medium">Loyal Business Partner</h3>
-          </div>
-        </div>
-        <div class="second-glass glass-card flex ml-0 h-28 absolute rounded-lg">
-          <div class="flex items-center">
-            <img class="pl-7" src="../static/images/iconGraph.svg" alt="" />
-          </div>
-          <div class="flex flex-col justify-start pl-4">
-            <h3 class="font-semibold text-3xl pt-6">100 +</h3>
-            <h3 class="font-medium">Proyek terselesaikan</h3>
-          </div>
-        </div>
       </div>
     </header>
     <Slide />

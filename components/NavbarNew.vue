@@ -92,7 +92,7 @@
               >
                 Tentang Kami
               </a>
-               <a
+              <a
                 href="/contact"
                 class="
                   md:max-w-[170px]
@@ -106,7 +106,8 @@
                   py-2
                   sm:mx-3 sm:inline-block sm:mt-0
                   text-teal-lighter
-                  border hover:bg-[#187C79]
+                  border
+                  hover:bg-[#187C79]
                   text-black
                   hover:text-white
                   rounded-lg
@@ -139,7 +140,8 @@ export default {
 };
 </script>
 
-<style.tentang {
+<style>
+.tentang {
   height: 9rem;
   top: 0;
   right: 0;
@@ -163,6 +165,5 @@ export default {
   .kontak {
     display: block;
   }
-}>
-
+}
 </style>

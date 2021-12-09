@@ -76,7 +76,7 @@
           </p>
         </div>
       </div>
-      <div class=" pt-20 grid md:grid-cols-4 grid-cols-1 gap-x-8">
+      <div class="pt-20 grid md:grid-cols-4 grid-cols-1 gap-x-8">
         <div class="">
           <div
             class="
@@ -367,7 +367,7 @@
             <div class="mb-6">
               <img
                 class="object-center object-cover rounded-full h-28 w-28"
-                src="../static/images/imgPeopleFive.svg"
+                src="../static/tentang/imgFive.svg"
                 alt="photo"
               />
             </div>

@@ -80,7 +80,7 @@
                 Portofolio
               </a>
               <a
-                href="/portfolio"
+                href="/tentang"
                 class="
                   no-underline
                   block
@@ -93,7 +93,7 @@
                 Tentang Kami
               </a>
               <a
-                href="/tentang"
+                href="/contact"
                 class="
                   kontak
                   no-underline
@@ -101,7 +101,6 @@
                   mt-4
                   sm:mx-3 sm:inline-block sm:mt-0
                   text-teal-lighter
-                  hover:text-green-800
                 "
               >
                 Kontak Kami
