@@ -582,6 +582,6 @@ export default {
 }
 .textFounder {
   padding-top: 148px;
-  padding-bottom: 130px;
+  padding-bottom: 150px;
 }
 </style>
