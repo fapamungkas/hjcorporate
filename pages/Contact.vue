@@ -342,6 +342,7 @@
               >
               <textarea
                 class="
+                  w-full
                   mr-10
                   bg-gray-100
                   text-black
