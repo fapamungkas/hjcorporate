@@ -66,13 +66,13 @@
               </p>
             </div>
             <!-- Button -->
-            <div class="md:pl-72">
+            <div class="md:pl-[130px]">
               <div class="w-auto tracking-wide mb-20 mx-1 relative">
                 <button
                   class="
                     flex
                     py-2
-                    px-8
+                    px-4
                     border border-[#187C79]
                     rounded-lg
                     font-medium
@@ -393,11 +393,11 @@ export default {};
 }
 
 .textPort {
-  max-width: 176px;
+  max-width: 200px;
 }
 
 .textPart {
-  max-width: 153px;
+  max-width: 200px;
 }
 
 .textPara,

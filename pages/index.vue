@@ -331,7 +331,7 @@
               pt-1.5
               pb-10
               font-medium
-              md:w-[600px] md:leading-[58px]
+              md:max-w-[650px] md:leading-[58px]
               tracking-[0.3px]
             "
           >
