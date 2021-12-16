@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full max-w-[1440px] mx-auto">
     <div class="main px-6 md:px-32">
       <NavbarNew />
       <div class="grid md:grid-cols-2 gap-x-32 pt-20">

@@ -1,5 +1,5 @@
 <template>
-  <div class="main md:px-32 px-4 m-auto">
+  <div class="main md:px-32 px-4 w-full max-w-[1440px] mx-auto">
     <!-- Navbar -->
     <Navbar />
     <div class="flex items-center pt-10 md:pt-16">
