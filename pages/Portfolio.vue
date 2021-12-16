@@ -6,7 +6,7 @@
         <div>
           <h3
             class="
-              md:text-5xl
+              md:text-[45px]
               text-[40px]
               pt-20
               pb-10
@@ -66,7 +66,7 @@
               </p>
             </div>
             <!-- Button -->
-            <div class="md:pl-[130px]">
+            <div class="md:pl-[140px]">
               <div class="w-auto tracking-wide mb-20 mx-1 relative">
                 <button
                   class="
