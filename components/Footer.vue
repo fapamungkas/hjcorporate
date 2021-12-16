@@ -1,19 +1,15 @@
 <template>
-  <div class="py-10">
+  <div class="md:pt-10 pt-10 md:pb-0 pb-10">
     <div class="row flex md:flex-row flex-col gap-x-16">
       <div class="col md:w-1/2 w-full text-left">
         <div class="flex items-center">
-          <h6 class="text-lg font-sans font-medium pb-4">Kontak Kami</h6>
+          <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">
+            Kontak Kami
+          </h6>
           &nbsp;&nbsp;
-          <hr width="100px" color="white" class="-mt-3" />
+          <hr width="40px" color="white" class="-mt-3" />
         </div>
-        <h3 class="text-4xl font-medium pt-1.5 pb-6">
-          Siap berkolaborasi bersama kami?
-        </h3>
-        <p class="text-base pb-10">
-          Jika anda sudah memiliki ide dan konsep mengenai projek apa yang akan
-          dikerjakan maka, dapat mengisikan formulir
-        </p>
+
         <CardService />
       </div>
       <div class="col w-full md:w-1/2">
@@ -231,6 +227,7 @@
               >
               <textarea
                 class="
+                  p-4
                   bg-gray-100
                   text-gray-700
                   border border-gray-200
@@ -248,12 +245,12 @@
                   rounded
                   font-medium
                   text-white
-                  hover:text-white
-                  bg-primary
+                  bg-[#187C79]
+                  hover:bg-[#115A58]
                   mt-3
                 "
               >
-                Submit
+                Kirim Pesan
               </button>
             </div>
           </div>
@@ -261,65 +258,62 @@
       </div>
     </div>
     <hr class="-mt-10 mb-12" />
-    <div class="flex flex-col md:flex-row items-center justify-center">
-      <div
-        class="
-          col
-          md:mb-0
-          mb-4
-          w-full
-          md:w-1/3
-          text-center
-          md:text-left
-          font-medium
-        "
-      >
-        <p>&copy;2021 HJ Corporate</p>
-      </div>
-      <div
-        class="
-          col
-          md:mb-0
-          mb-4
-          w-full
-          md:w-1/3
-          text-center
-          md:text-left
-          font-semibold
-        "
-      >
-        <p>Sinduharjo, Kab. Sleman, Yogyakarta</p>
-      </div>
-      <div
-        class="
-          col
-          md:mb-0
-          mb-4
-          w-full
-          md:w-1/3
-          gap-x-4
-          flex
-          justify-center
-          text-center
-          md:text-left md:justify-end
-        "
-      >
-        <a href="">
-          <img
-            class="hover:color-black hover:opacity-[100%] opacity-[30%]"
-            src="../static/images/mail.svg"
-            alt=""
-          />
-        </a>
-        <a href="">
-          <img src="../static/images/linkedIn.svg" alt="" />
-        </a>
-        <a href="">
-          <img src="../static/images/facebook.svg" alt="" />
-        </a>
-        <a href="">
-          <img src="../static/images/instagram.svg" alt="" />
-        </a>
+    <div>
+      <div class="flex md:flex-row flex-col-reverse md:px-0 px-6">
+        <div class="col md:w-1/3 w-full md:pb-0 text-left font-medium">
+          <p>&copy;2021 HJ Corporate</p>
+        </div>
+        <div class="col md:w-1/3 md:pb-0 pb-6 w-full text-left font-semibold">
+          <p>Sinduharjo, Kab. Sleman, Yogyakarta</p>
+        </div>
+        <div
+          class="
+            col
+            md:w-1/3
+            w-full
+            md:gap-x-4
+            gap-x-6
+            md:pb-0
+            pb-6
+            flex
+            md:justify-end
+            justify-start
+            md:mb-20
+          "
+        >
+          <a href="">
+            <img
+              class="
+                hover:text-black hover:opacity-[100%]
+                opacity-[30%]
+                scale-75
+              "
+              src="../static/tentang/emailFoot.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/linkeFoot.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/fbFoot.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/instaFoot.png"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>

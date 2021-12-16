@@ -3,9 +3,11 @@
     <!-- Navbar -->
     <Navbar />
     <div class="flex items-center pt-10 md:pt-16">
-      <h6 class="text-lg font-sans font-medium pb-4">HJ Corporate</h6>
+      <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">
+        HJ Corporate
+      </h6>
       &nbsp;&nbsp;
-      <hr width="40px" color="white" class="-mt-3" />
+      <hr width="40px" size="10px" color="blue" class="-mt-3" />
     </div>
     <!-- Header Section -->
     <header class="row md:flex h-auto mb-16">
@@ -43,29 +45,66 @@
     <Slide />
     <!-- Section Services -->
     <div class="flex items-center pt-16">
-      <h6 class="text-lg font-sans font-medium pb-4">Bisnis Kami</h6>
+      <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">
+        Bisnis Kami
+      </h6>
       &nbsp;&nbsp;
       <hr width="40px" color="white" class="-mt-3" />
     </div>
     <div>
-      <h3 class="text-4xl pt-1.5 pb-2 font-medium">
+      <h3
+        class="
+          md:max-w-[400px]
+          max-w-[300px]
+          md:text-5xl
+          text-[32px]
+          pt-1.5
+          pb-20
+          leading-[48px]
+          tracking-[0.3px]
+          font-medium
+        "
+      >
         Bidang bisnis yang kami tawarkan
       </h3>
-      <p class="pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi
-        quaerat ullam.
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div
+        class="
+          grid grid-cols-1
+          md:grid-cols-2 md:gap-x-[123px]
+          gap-x-[40px]
+          md:gap-y-0
+          gap-y-[40px]
+        "
+      >
         <div>
-          <div class="child text-left pb-14">
+          <div class="child text-left">
             <div class="bg-white p-12 md:p-14 border-techColor border-t-4">
               <img
-                class="pb-8 h-28"
+                class="pb-8 w-[42px] h-auto"
                 src="../static/images/technology.png"
                 alt="hjtech"
               />
-              <h4 class="pb-8 text-3xl font-medium">HJ<br />Technology</h4>
-              <p class="pb-8">
+              <h4
+                class="
+                  pb-8
+                  text-[32px]
+                  font-semibold
+                  leading-[42px]
+                  tracking-[0.3px]
+                "
+              >
+                HJ<br />Technology
+              </h4>
+              <p
+                class="
+                  pb-8
+                  text-base
+                  font-normal
+                  leading-[26px]
+                  tracking-[0.3px]
+                  text-[#404852]
+                "
+              >
                 Menyediakan jasa seputar techonology seperti: Web development,
                 Mobile Apps Development, WordPress.
               </p>
@@ -73,33 +112,72 @@
           </div>
         </div>
         <div>
-          <div class="child text-left pb-14">
+          <div class="child text-left">
             <div class="bg-white p-12 md:p-14 border-red-600 border-t-4">
               <img
-                class="pb-8 h-28"
+                class="pb-8 w-[42px] h-auto"
                 src="../static/images/design.png"
                 alt="hjdesign"
               />
-              <h4 class="pb-8 text-3xl font-medium">HJ<br />Design</h4>
-              <p class="pb-8">
+              <h4
+                class="
+                  pb-8
+                  text-[32px]
+                  font-semibold
+                  leading-[42px]
+                  tracking-[0.3px]
+                "
+              >
+                HJ<br />Design
+              </h4>
+              <p
+                class="
+                  pb-8
+                  text-base
+                  font-normal
+                  leading-[26px]
+                  tracking-[0.3px]
+                  text-[#404852]
+                "
+              >
                 Menyediakan jasa seputar design seperti: Landing Pages, User
-                Flow, Wireframing, Prototyping, Mobile App.
+                Flow, Wireframing, Prototyping, Mobile App Design, Web App
+                Design.
               </p>
             </div>
           </div>
         </div>
         <div>
-          <div class="child text-left pb-14">
+          <div class="child text-left md:pt-[40px]">
             <div
               class="bg-white p-12 md:p-14 border-consultantColor border-t-4"
             >
               <img
-                class="pb-8 h-28"
+                class="pb-8 w-[42px] h-auto"
                 src="../static/images/consultant.png"
                 alt="hjconsultant"
               />
-              <h4 class="pb-8 text-3xl font-medium">HJ<br />Consultant</h4>
-              <p class="pb-8">
+              <h4
+                class="
+                  pb-8
+                  text-[32px]
+                  font-semibold
+                  leading-[42px]
+                  tracking-[0.3px]
+                "
+              >
+                HJ<br />Consultant
+              </h4>
+              <p
+                class="
+                  pb-8
+                  text-base
+                  font-normal
+                  leading-[26px]
+                  tracking-[0.3px]
+                  text-[#404852]
+                "
+              >
                 Partner akan dimudahkan dengan sistem komunikasi kami yang
                 tersedia untuk kapan saja.
               </p>
@@ -107,15 +185,34 @@
           </div>
         </div>
         <div>
-          <div class="child text-left pb-14">
+          <div class="child text-left pb-14 md:pt-[40px]">
             <div class="bg-white p-12 md:p-14 border-farmColor border-t-4">
               <img
-                class="pb-8 h-28"
+                class="pb-8 w-[42px] h-auto"
                 src="../static/images/farm.png"
                 alt="hjfarm"
               />
-              <h4 class="pb-8 text-3xl font-medium">HJ<br />Farm</h4>
-              <p class="pb-8">
+              <h4
+                class="
+                  pb-8
+                  text-[32px]
+                  font-semibold
+                  leading-[42px]
+                  tracking-[0.3px]
+                "
+              >
+                HJ<br />Farm
+              </h4>
+              <p
+                class="
+                  pb-8
+                  text-base
+                  font-normal
+                  leading-[26px]
+                  tracking-[0.3px]
+                  text-[#404852]
+                "
+              >
                 Partner akan dimudahkan dengan sistem komunikasi kami yang
                 tersedia untuk kapan saja.
               </p>
@@ -125,31 +222,41 @@
       </div>
     </div>
     <!-- Card Portfolio -->
-    <div class="pt-16 pb-10">
+    <div class="pt-16">
       <div class="flex items-center">
-        <h6 class="text-lg font-sans font-medium pb-4">Portfolio</h6>
+        <h6 class="text-lg font-sans font-medium pb-4 text-[#187C79]">
+          Portfolio
+        </h6>
         &nbsp;&nbsp;
         <hr width="40px" color="white" class="-mt-3" />
       </div>
       <div>
-        <h3 class="text-4xl pt-1.5 pb-2 font-medium">
-          Proyek yang pernah kami kerjakan.
+        <h3
+          class="
+            md:text-[48px]
+            text-[32px]
+            pt-1.5
+            font-medium
+            md:w-[450px]
+            w-[300px]
+            pb-10
+            leading-[48px]
+            tracking-[0.3px]
+          "
+        >
+          Proyek yang pernah kami kerjakan
         </h3>
-        <p class="pb-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi
-          quaerat ullam.
-        </p>
-        <div class="flex flex-col md:flex-row">
+        <div class="flex flex-col md:flex-row gap-x-6">
           <div class="mb-4 md:mb-0">
             <button
               class="
                 py-2
                 px-6
-                outline-blue
-                rounded
+                rounded-lg
                 font-medium
-                text-primary
-                hover:text-white hover:bg-primary
+                border border-black
+                text-black
+                hover:text-white hover:bg-black
                 mx-1
               "
             >
@@ -161,11 +268,11 @@
               class="
                 py-2
                 px-6
-                outline-blue
-                rounded
+                rounded-lg
                 font-medium
-                text-primary
-                hover:text-white hover:bg-primary
+                border border-black
+                text-black
+                hover:text-white hover:bg-black
                 mx-1
               "
             >
@@ -177,11 +284,11 @@
               class="
                 py-2
                 px-6
-                outline-blue
-                rounded
+                rounded-lg
                 font-medium
-                text-primary
-                hover:text-white hover:bg-primary
+                border border-black
+                text-black
+                hover:text-white hover:bg-black
                 mx-1
               "
             >
@@ -193,11 +300,11 @@
               class="
                 py-2
                 px-6
-                outline-blue
-                rounded
+                rounded-lg
                 font-medium
-                text-primary
-                hover:text-white hover:bg-primary
+                border border-black
+                text-black
+                hover:text-white hover:bg-black
                 mx-1
               "
             >
@@ -208,92 +315,80 @@
       </div>
       <Portfolio />
       <!-- Benefit -->
-      <div class="py-10">
+      <div class="pt-10">
         <div class="flex items-center">
-          <h6 class="text-lg font-sans pt-8 font-medium pb-4">
+          <h6 class="text-lg font-sans font-medium pb-4 text-[#187C79]">
             Keuntungan Partner Kami
           </h6>
           &nbsp;&nbsp;
           <hr width="40px" color="white" class="-mt-3" />
         </div>
         <div>
-          <h3 class="text-4xl pt-1.5 pb-2 font-medium">
-            Keuntungan menjadi partner kerja pada HJ Corporate.
-          </h3>
-          <p class="pb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            commodi quaerat ullam.
-          </p>
-        </div>
-        <div class="flex md:flex-row flex-col items-center">
-          <!-- First Card -->
-          <div
+          <h3
             class="
-              w-auto
-              h-auto
-              tracking-wide
-              mb-14
-              border border-black-300
-              mx-1
-              rounded-lg
-              relative
+              md:text-[48px]
+              text-[32px]
+              pt-1.5
+              pb-10
+              font-medium
+              md:w-[600px] md:leading-[58px]
+              tracking-[0.3px]
             "
           >
+            Keuntungan menjadi partner kerja pada HJ Corporate
+          </h3>
+        </div>
+        <div
+          class="
+            flex
+            md:flex-row
+            flex-col
+            items-center
+            leading-[34px]
+            tracking-[0.3px]
+          "
+        >
+          <!-- First Card -->
+          <div
+            class="w-auto h-auto tracking-wide mb-14 mx-1 rounded-lg relative"
+          >
             <div
-              class="small-banner w-1 h-20 bg-blue-600 absolute rounded-tl-md"
+              class="small-banner w-1 h-20 bg-[#187C79] absolute rounded-tl-md"
             ></div>
-            <h5 class="text-2xl font-semibold pl-6 pt-6 pr-6 pb-2">
+            <h5 class="text-2xl font-semibold pl-6 pr-6">
               Komunikasi yang jelas dan mudah.
             </h5>
-            <p class="text-base font-regular p-6">
+            <p class="text-base text-[#404852] font-regular p-6">
               Partner akan dimudahkan dengan sistem komunikasi kami yang
               tersedia untuk kapan saja.
             </p>
           </div>
           <!-- Second Card -->
           <div
-            class="
-              w-auto
-              h-auto
-              tracking-wide
-              mb-14
-              border border-black-300
-              mx-1
-              rounded-lg
-              relative
-            "
+            class="w-auto h-auto tracking-wide mb-14 mx-1 rounded-lg relative"
           >
             <div
-              class="small-banner w-1 h-20 bg-blue-600 absolute rounded-tl-md"
+              class="small-banner w-1 h-20 bg-[#187C79] absolute rounded-tl-md"
             ></div>
-            <h5 class="text-2xl font-semibold pl-6 pt-6 pr-6 pb-2">
+            <h5 class="text-2xl font-semibold pl-6 pr-6">
               Proyek sesuai permintaan partner.
             </h5>
-            <p class="text-base font-regular p-6">
+            <p class="text-base text-[#404852] font-regular p-6">
               Partner dapat mengajukan konsepnya pada projek yang diajukan
               sesuai dengan keinginannya.
             </p>
           </div>
           <!-- Third Card -->
           <div
-            class="
-              w-auto
-              h-auto
-              tracking-wide
-              mb-14
-              border border-black-300
-              mx-1
-              rounded-lg
-              relative
-            "
+            class="w-auto h-auto tracking-wide mb-14 mx-1 rounded-lg relative"
           >
             <div
-              class="small-banner w-1 h-20 bg-blue-600 absolute rounded-tl-md"
+              class="small-banner w-1 h-20 bg-[#187C79] absolute rounded-tl-md"
             ></div>
-            <h5 class="text-2xl font-semibold pl-6 pt-6 pr-6 pb-2">
+            <h5 class="text-2xl font-semibold pl-6 pr-6">
               Ketepatan dalam waktu pengerjaan
             </h5>
-            <p class="text-base font-regular p-6">
+            <p class="text-base text-[#404852] font-regular p-6">
               Projek yang diberikan partner akan dapat diselesaikan tepat waktu
               sesuai waktu yang diinginkan partner
             </p>
@@ -301,14 +396,30 @@
         </div>
       </div>
       <!-- About Us -->
-      <div class="py-10 relative">
+      <div class="pb-10 relative">
         <div class="flex items-center">
-          <h6 class="text-lg font-sans font-medium pb-4">Tentang Kami</h6>
+          <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">
+            Tentang Kami
+          </h6>
           &nbsp;&nbsp;
           <hr width="40px" color="white" class="-mt-3" />
         </div>
         <div class="relative">
-          <h3 class="description-about text-4xl pt-1.5 pb-8 font-medium">
+          <h3
+            class="
+              description-about
+              md:w-[1000px]
+              w-[350px]
+              md:text-[48px]
+              text-[32px]
+              leading-[42px]
+              md:leading-[58px]
+              tracking-[0.3px]
+              pt-1.5
+              pb-8
+              font-medium
+            "
+          >
             Kami selalu mengedepankan kepuasan para partner kami demi
             menghasilkan sebuah produk yang diinginkan
           </h3>
@@ -358,6 +469,11 @@ export default {
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+hr {
+  border-top-width: 2px;
+  border-top: 2px solid #187c79;
 }
 
 .main {

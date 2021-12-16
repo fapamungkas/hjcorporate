@@ -12,10 +12,22 @@
         relative
       "
     >
-      <div class="pt-5 absolute z-10 right-[35px] top-0">
+      <div
+        class="
+          mt-5
+          absolute
+          h-[50px]
+          w-[50px]
+          rounded-[50%]
+          bg-[#A3A07C]
+          z-10
+          right-[35px]
+          top-0
+        "
+      >
         <a href="/">
           <img
-            class="bg-[#A3A07C] rounded-[50%] items-end"
+            class="items-end pl-[9px] pt-[9px] mb-2"
             src="../static/images/delete.svg"
             alt=""
           />
@@ -361,10 +373,8 @@
                   rounded
                   font-medium
                   text-white
-                  hover:text-white
                   bg-[#187C79]
-                  hover:bg-opacity-100
-                  bg-opacity-80
+                  hover:bg-[#115A58]
                   mt-3
                 "
               >

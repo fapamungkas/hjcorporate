@@ -107,9 +107,9 @@
                   sm:mx-3 sm:inline-block sm:mt-0
                   text-teal-lighter
                   border
-                  hover:bg-[#187C79]
-                  text-black
-                  hover:text-white
+                  bg-[#187C79]
+                  hover:bg-[#115A58]
+                  text-white
                   rounded-lg
                   text-center
                 "

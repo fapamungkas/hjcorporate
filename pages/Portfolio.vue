@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full max-w-[1440px] mx-auto">
     <div class="main md:px-32 px-6">
       <NavbarNew />
       <div class="tagHeader">
@@ -38,7 +38,7 @@
                   small-banner
                   w-1
                   h-16
-                  bg-green-600
+                  bg-[#187C79]
                   absolute
                   rounded-tl-md
                 "
@@ -55,7 +55,7 @@
                   small-banner
                   w-1
                   h-16
-                  bg-green-600
+                  bg-[#187C79]
                   absolute
                   rounded-tl-md
                 "
@@ -72,12 +72,12 @@
                   class="
                     flex
                     py-2
-                    px-6
-                    border border-green-700
+                    px-8
+                    border border-[#187C79]
                     rounded-lg
                     font-medium
-                    text-green-700
-                    hover:text-white hover:bg-[#187C79]
+                    text-[#187C79]
+                    hover: hover:text-white hover:bg-[#187C79]
                     items-end
                     mx-1
                   "
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="flex md:flex-row flex-col-reverse mb-24 gap-x-8">
-          <div class="w-full md:w-1/2 md:pt-24 pt-6">
+          <div class="w-full md:w-1/2 md:pt-[76px] pt-6">
             <h4 class="text-3xl text-black font-semibold pb-4">HJ Corporate</h4>
             <div class="textPara md:text-lg text-base font-normal">
               <p class="pb-3">
@@ -127,7 +127,7 @@
     </div>
 
     <!-- Section 2  -->
-    <div class="Solution md:px-32 px-6 pb-14 bg-[#F0FAF5]">
+    <div class="Solution md:px-32 px-6 pb-14 bg-gradient-to-r from-[#F0FAF5]">
       <div
         class="
           grid
@@ -294,7 +294,7 @@
         </div>
       </div>
     </div>
-    <div class="nextProject md:px-32 px-6 py-12 mb-20 bg-[#F0FAF5]">
+    <div class="nextProject md:px-32 px-6 py-12 mb-[120px] bg-[#F0FAF5]">
       <div class="textProject pb-6">
         <h1 class="text-lg font-normal">Projek Berikutnya</h1>
       </div>
@@ -338,16 +338,36 @@
           "
         >
           <a href="">
-            <img src="../static/images/mail.svg" alt="" />
+            <img
+              class="
+                hover:text-black hover:opacity-[100%]
+                opacity-[30%]
+                scale-75
+              "
+              src="../static/tentang/emailFoot.png"
+              alt=""
+            />
           </a>
           <a href="">
-            <img src="../static/images/linkedIn.svg" alt="" />
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/linkeFoot.png"
+              alt=""
+            />
           </a>
           <a href="">
-            <img src="../static/images/facebook.svg" alt="" />
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/fbFoot.png"
+              alt=""
+            />
           </a>
           <a href="">
-            <img src="../static/images/instagram.svg" alt="" />
+            <img
+              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
+              src="../static/tentang/instaFoot.png"
+              alt=""
+            />
           </a>
         </div>
       </div>
