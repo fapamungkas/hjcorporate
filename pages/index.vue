@@ -7,7 +7,7 @@
         HJ Corporate
       </h6>
       &nbsp;&nbsp;
-      <hr width="40px" size="10px" color="blue" class="-mt-3" />
+      <hr width="40px" size="10px" color="" class="-mt-3" />
     </div>
     <!-- Header Section -->
     <header class="row md:flex h-auto mb-16">
@@ -54,7 +54,7 @@
     <div>
       <h3
         class="
-          md:max-w-[400px]
+          md:max-w-[500px]
           max-w-[300px]
           md:text-5xl
           text-[32px]
