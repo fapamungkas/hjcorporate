@@ -6,7 +6,7 @@
     <div class="shadowPort md:w-2/3 md:pl-6 pl-0 pt-4 border border-white">
       <h4
         class="
-          w-[400px]
+          md:w-[400px]
           px-0
           font-semibold
           text-[32px]
@@ -19,7 +19,7 @@
       </h4>
       <p
         class="
-          w-[400px]
+          md:w-[400px]
           text-partner text-base
           font-regular
           text-[#5A5A5A]
