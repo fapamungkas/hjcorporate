@@ -334,7 +334,7 @@
                 pt-1.5
                 pb-10
                 font-medium
-                md:max-w-[650px] md:leading-[58px]
+                md:max-w-[750px] md:leading-[58px]
                 tracking-[0.3px]
               "
             >
@@ -432,7 +432,7 @@
             <h3
               class="
                 description-about
-                md:w-[1000px]
+                md:w-[1100px]
                 w-[350px]
                 md:text-[48px]
                 text-[32px]
