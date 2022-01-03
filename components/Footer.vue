@@ -3,9 +3,7 @@
     <div class="row flex md:flex-row flex-col gap-x-16">
       <div class="col md:w-1/2 w-full text-left">
         <div class="flex items-center">
-          <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">
-            Kontak Kami
-          </h6>
+          <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">Kontak Kami</h6>
           &nbsp;&nbsp;
           <hr width="40px" color="white" class="-mt-3" />
         </div>
@@ -13,79 +11,25 @@
         <CardService />
       </div>
       <div class="col w-full md:w-1/2">
-        <h6 class="text-lg text-black font-semibold text-left ml-0 md:-ml-2">
-          Bisnis yang diinginkan<span class="text-red-500">*</span>
-        </h6>
+        <h6 class="text-lg text-black font-semibold text-left ml-0 md:-ml-2">Bisnis yang diinginkan<span class="text-red-500">*</span></h6>
         <div class="grid grid-cols-2 gap-4 pt-6 md:-ml-2 ml-0">
-          <button
-            class="
-              py-2
-              px-6
-              outline-blue
-              rounded
-              font-medium
-              text-primary
-              hover:text-white hover:bg-primary
-              mx-1
-            "
-          >
+          <button class="py-2 px-6 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
             {{ nameButton[0] }}
           </button>
-          <button
-            class="
-              py-2
-              px-6
-              outline-blue
-              rounded
-              font-medium
-              text-primary
-              hover:text-white hover:bg-primary
-              mx-1
-            "
-          >
+          <button class="py-2 px-6 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
             {{ nameButton[1] }}
           </button>
-          <button
-            class="
-              py-2
-              px-6
-              outline-blue
-              rounded
-              font-medium
-              text-primary
-              hover:text-white hover:bg-primary
-              mx-1
-            "
-          >
+          <button class="py-2 px-6 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
             {{ nameButton[2] }}
           </button>
-          <button
-            class="
-              py-2
-              px-6
-              outline-blue
-              rounded
-              font-medium
-              text-primary
-              hover:text-white hover:bg-primary
-              mx-1
-            "
-          >
+          <button class="py-2 px-6 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
             {{ nameButton[3] }}
           </button>
         </div>
         <form class="w-full max-w-lg pt-8 text-left">
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 mx-2 md:mx-0 px-0 mb-6 md:mb-0">
-              <label
-                class="
-                  block
-                  tracking-wide
-                  text-gray-700 text-lg
-                  font-medium
-                  pb-2
-                "
-                for="grid-name"
+              <label class="block tracking-wide text-gray-700 text-lg font-medium pb-2" for="grid-name"
                 >Nama<span class="text-red-500">*</span>
               </label>
               <input
@@ -110,15 +54,7 @@
             </div>
             <div class="w-full md:w-1/2 mx-2 md:mx-0">
               <div class="ml-0 md:ml-2">
-                <label
-                  class="
-                    block
-                    tracking-wide
-                    text-gray-700 text-lg
-                    font-medium
-                    pb-2
-                  "
-                  for="grid-number"
+                <label class="block tracking-wide text-gray-700 text-lg font-medium pb-2" for="grid-number"
                   >No.Telepon/WhatsApp<span class="text-red-500">*</span></label
                 >
                 <input
@@ -145,15 +81,7 @@
           </div>
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-0 mx-2 md:mx-0 mb-6 md:mb-0">
-              <label
-                class="
-                  block
-                  tracking-wide
-                  text-gray-700 text-lg
-                  font-medium
-                  pb-2
-                "
-                for="grid-email"
+              <label class="block tracking-wide text-gray-700 text-lg font-medium pb-2" for="grid-email"
                 >Email Address<span class="text-red-500">*</span></label
               >
               <input
@@ -178,18 +106,7 @@
             </div>
             <div class="w-full md:w-1/2">
               <div class="mx-2 md:mx-0 ml-2 md:ml-2">
-                <label
-                  class="
-                    block
-                    tracking-wide
-                    text-gray-700 text-lg
-                    font-medium
-                    pb-2
-                  "
-                  for="grid-document"
-                >
-                  Upload Dokumen</label
-                >
+                <label class="block tracking-wide text-gray-700 text-lg font-medium pb-2" for="grid-document"> Upload Dokumen</label>
                 <input
                   class="
                     appearance-none
@@ -213,45 +130,16 @@
           </div>
           <div class="flex flex-wrap -mx-3 pb-6 mb-20">
             <div class="w-full mx-2 md:mx-0">
-              <label
-                class="
-                  block
-                  tracking-wide
-                  text-gray-700 text-lg
-                  font-medium
-                  pb-2
-                "
-                for="grid-detail"
-              >
+              <label class="block tracking-wide text-gray-700 text-lg font-medium pb-2" for="grid-detail">
                 Detail Projek<span class="text-red-500">*</span></label
               >
               <textarea
-                class="
-                  p-4
-                  bg-gray-100
-                  text-gray-700
-                  border border-gray-200
-                  rounded
-                  focus:outline-none focus:bg-white focus:border-gray-500
-                "
+                class="p-4 bg-gray-100 text-gray-700 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
                 id=""
                 name=""
                 rows="7"
               ></textarea>
-              <button
-                class="
-                  py-2
-                  px-6
-                  rounded
-                  font-medium
-                  text-white
-                  bg-[#187C79]
-                  hover:bg-[#115A58]
-                  mt-3
-                "
-              >
-                Kirim Pesan
-              </button>
+              <button class="py-2 px-6 rounded font-medium text-white bg-[#187C79] hover:bg-[#115A58] mt-3">Kirim Pesan</button>
             </div>
           </div>
         </form>
@@ -266,52 +154,18 @@
         <div class="col md:w-1/3 md:pb-0 pb-6 w-full text-left font-semibold">
           <p>Sinduharjo, Kab. Sleman, Yogyakarta</p>
         </div>
-        <div
-          class="
-            col
-            md:w-1/3
-            w-full
-            md:gap-x-4
-            gap-x-6
-            md:pb-0
-            pb-6
-            flex
-            md:justify-end
-            justify-start
-            md:mb-20
-          "
-        >
+        <div class="col md:w-1/3 w-full md:gap-x-4 gap-x-6 md:pb-0 pb-6 flex md:justify-end justify-start md:mb-20">
           <a href="">
-            <img
-              class="
-                hover:text-black hover:opacity-[100%]
-                opacity-[30%]
-                scale-75
-              "
-              src="../static/tentang/emailFoot.png"
-              alt=""
-            />
+            <img class="hover:text-black hover:opacity-[100%] opacity-[30%] scale-75" src="../static/tentang/emailFoot.png" alt="" />
           </a>
           <a href="">
-            <img
-              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
-              src="../static/tentang/linkeFoot.png"
-              alt=""
-            />
+            <img class="hover:text-black hover:opacity-[100%] opacity-[30%]" src="../static/tentang/linkeFoot.png" alt="" />
           </a>
           <a href="">
-            <img
-              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
-              src="../static/tentang/fbFoot.png"
-              alt=""
-            />
+            <img class="hover:text-black hover:opacity-[100%] opacity-[30%]" src="../static/tentang/fbFoot.png" alt="" />
           </a>
           <a href="">
-            <img
-              class="hover:text-black hover:opacity-[100%] opacity-[30%]"
-              src="../static/tentang/instaFoot.png"
-              alt=""
-            />
+            <img class="hover:text-black hover:opacity-[100%] opacity-[30%]" src="../static/tentang/instaFoot.png" alt="" />
           </a>
         </div>
       </div>

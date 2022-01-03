@@ -3,108 +3,43 @@
     <div class="slider">
       <div class="slide-track">
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
         </div>
         <div class="slide">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-            height="100"
-            width="250"
-            alt=""
-          />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
         </div>
       </div>
     </div>
@@ -130,11 +65,7 @@ export default {
 .slider::before,
 .slider::after {
   position: absolute;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100%;
   width: 25%;
