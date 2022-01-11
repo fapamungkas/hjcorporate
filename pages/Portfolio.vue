@@ -2,6 +2,7 @@
   <div class="w-full max-w-[1440px] mx-auto">
     <div class="main md:px-32 px-6">
       <NavbarNew />
+      <WhatsappButton />
       <div class="tagHeader">
         <div>
           <h3 class="md:text-[45px] text-[40px] pt-20 pb-10 font-semibold text-black tracking-wide">

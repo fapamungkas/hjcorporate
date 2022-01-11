@@ -6,11 +6,14 @@
           <img class="items-end pl-[9px] pt-[9px] mb-2" src="../static/images/delete.svg" alt="" />
         </a>
       </div>
+      <a href="">
+        <WhatsappButton />
+      </a>
       <div class="md:pt-20 pt-10 pr-12 md:w-[45%] w-full">
         <h2 class="md:text-6xl text-[40px] text-white font-semibold pb-4">Kontak <span class="textUs">Kami</span></h2>
         <p class="text-white text-base leading-6 tracking-wide pb-2">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-          Exercitation veniam consequat sunt nostrud amet.
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+          velit mollit. Exercitation veniam consequat sunt nostrud amet.
         </p>
         <div class="flex md:pt-24 pt-20">
           <button
@@ -65,13 +68,25 @@
         </div>
         <div class="flex gap-x-6 md:pt-44 pt-20 md:pl-6 pl-0">
           <a class="" href="">
-            <img class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full" src="../static/images/instagramC.svg" alt="" />
+            <img
+              class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full"
+              src="../static/images/instagramC.svg"
+              alt=""
+            />
           </a>
           <a href="">
-            <img class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full" src="../static/images/facebookC.svg" alt="" />
+            <img
+              class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full"
+              src="../static/images/facebookC.svg"
+              alt=""
+            />
           </a>
           <a href="">
-            <img class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full" src="../static/tentang/coollink.svg" alt="" />
+            <img
+              class="hover:bg-[#05BDAF] hover:bg-opacity-40 hover:rounded-full"
+              src="../static/tentang/coollink.svg"
+              alt=""
+            />
           </a>
         </div>
       </div>
@@ -81,19 +96,47 @@
         <div class="w-full flex">
           <div class="w-[40%]">
             <div class="flex flex-col">
-              <button class="mb-5 py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
+              <button
+                class="
+                  mb-5
+                  py-2
+                  px-4
+                  outline-blue
+                  rounded
+                  font-medium
+                  text-primary
+                  hover:text-white hover:bg-primary
+                  mx-1
+                "
+              >
                 {{ nameButton[0] }}
               </button>
-              <button class="py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
+              <button
+                class="py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1"
+              >
                 {{ nameButton[1] }}
               </button>
             </div>
           </div>
           <div class="w-[40%] flex flex-col">
-            <button class="mb-5 py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
+            <button
+              class="
+                mb-5
+                py-2
+                px-4
+                outline-blue
+                rounded
+                font-medium
+                text-primary
+                hover:text-white hover:bg-primary
+                mx-1
+              "
+            >
               {{ nameButton[2] }}
             </button>
-            <button class="py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1">
+            <button
+              class="py-2 px-4 outline-blue rounded font-medium text-primary hover:text-white hover:bg-primary mx-1"
+            >
               {{ nameButton[3] }}
             </button>
           </div>
@@ -181,7 +224,9 @@
             </div>
             <div class="w-full md:w-1/2">
               <div class="md:w-full md:ml-1 ml-0">
-                <label class="block tracking-wide text-black text-lg font-semibold pb-2" for="grid-document"> Upload Dokumen</label>
+                <label class="block tracking-wide text-black text-lg font-semibold pb-2" for="grid-document">
+                  Upload Dokumen</label
+                >
                 <input
                   class="
                     md:w-[97%]
@@ -223,7 +268,9 @@
                 name=""
                 rows="7"
               ></textarea>
-              <button class="py-2 px-6 rounded font-medium text-white bg-[#187C79] hover:bg-[#115A58] mt-3">Kirim Pesan</button>
+              <button class="py-2 px-6 rounded font-medium text-white bg-[#187C79] hover:bg-[#115A58] mt-3">
+                Kirim Pesan
+              </button>
             </div>
           </div>
         </form>
@@ -233,9 +280,10 @@
 </template>
 <script>
 import CardService from "../components/CardService.vue";
+import WhatsappButton from "../components/whatsappButton.vue";
 export default {
   name: "Footer",
-  components: { CardService },
+  components: { CardService, WhatsappButton },
   data() {
     return {
       nameButton: ["HJ Design", "HJ Tech", "HJ Consultant", "HJ Farm"],

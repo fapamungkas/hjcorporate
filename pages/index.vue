@@ -3,6 +3,7 @@
     <!-- Navbar -->
     <div class="bg-gradient-to-r md:px-32 px-6 from-[#F3FDFC]">
       <Navbar />
+      <WhatsappButton />
       <div class="flex items-center pt-10 md:pt-16">
         <h6 class="text-lg text-[#187C79] font-sans font-medium pb-4">HJ Corporate</h6>
         &nbsp;&nbsp;
@@ -16,8 +17,8 @@
             Membantu mengubah produk menjadi luar biasa.
           </h1>
           <p class="pt-5 md:pr-16 md:leading-7 pb-8 md:pt-3 text-gray-600">
-            Kami adalah perusahaan yang berfokus pada bidang teknologi, desain, konsultan, dan peternakan. Kami selalu memperhatikan setiap
-            detail kecil dari produk yang kami kerjakan.
+            Kami adalah perusahaan yang berfokus pada bidang teknologi, desain, konsultan, dan peternakan. Kami selalu
+            memperhatikan setiap detail kecil dari produk yang kami kerjakan.
           </p>
           <!-- Button Call to Action -->
           <ButtonCallAction />
@@ -37,7 +38,19 @@
         <hr width="40px" color="white" class="-mt-3" />
       </div>
       <div>
-        <h3 class="md:max-w-[500px] max-w-[300px] md:text-5xl text-[32px] pt-1.5 pb-20 leading-[48px] tracking-[0.3px] font-medium">
+        <h3
+          class="
+            md:max-w-[500px]
+            max-w-[300px]
+            md:text-5xl
+            text-[32px]
+            pt-1.5
+            pb-20
+            leading-[48px]
+            tracking-[0.3px]
+            font-medium
+          "
+        >
           Bidang bisnis yang kami tawarkan
         </h3>
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-[123px] gap-x-[40px] md:gap-y-0 gap-y-[40px]">
@@ -58,8 +71,8 @@
                 <img class="pb-8 w-[42px] h-auto" src="../static/images/design.png" alt="hjdesign" />
                 <h4 class="pb-8 text-[32px] font-semibold leading-[42px] tracking-[0.3px]">HJ<br />Design</h4>
                 <p class="pb-8 text-base font-normal leading-[26px] tracking-[0.3px] text-[#404852]">
-                  Menyediakan jasa seputar design seperti: Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design, Web App
-                  Design.
+                  Menyediakan jasa seputar design seperti: Landing Pages, User Flow, Wireframing, Prototyping, Mobile
+                  App Design, Web App Design.
                 </p>
               </div>
             </div>
@@ -96,27 +109,83 @@
           <hr width="40px" color="white" class="-mt-3" />
         </div>
         <div>
-          <h3 class="md:text-[48px] text-[32px] pt-1.5 font-medium md:w-[450px] w-[300px] pb-10 leading-[48px] tracking-[0.3px]">
+          <h3
+            class="
+              md:text-[48px]
+              text-[32px]
+              pt-1.5
+              font-medium
+              md:w-[450px]
+              w-[300px]
+              pb-10
+              leading-[48px]
+              tracking-[0.3px]
+            "
+          >
             Proyek yang pernah kami kerjakan
           </h3>
           <div class="flex flex-col md:flex-row gap-x-6">
             <div class="mb-4 md:mb-0">
-              <button class="py-2 px-6 rounded-lg font-medium border border-black text-black hover:text-white hover:bg-black mx-1">
+              <button
+                class="
+                  py-2
+                  px-6
+                  rounded-lg
+                  font-medium
+                  border border-black
+                  text-black
+                  hover:text-white hover:bg-black
+                  mx-1
+                "
+              >
                 {{ nameButton[0] }}
               </button>
             </div>
             <div class="mb-4 md:mb-0">
-              <button class="py-2 px-6 rounded-lg font-medium border border-black text-black hover:text-white hover:bg-black mx-1">
+              <button
+                class="
+                  py-2
+                  px-6
+                  rounded-lg
+                  font-medium
+                  border border-black
+                  text-black
+                  hover:text-white hover:bg-black
+                  mx-1
+                "
+              >
                 {{ nameButton[1] }}
               </button>
             </div>
             <div class="mb-4 md:mb-0">
-              <button class="py-2 px-6 rounded-lg font-medium border border-black text-black hover:text-white hover:bg-black mx-1">
+              <button
+                class="
+                  py-2
+                  px-6
+                  rounded-lg
+                  font-medium
+                  border border-black
+                  text-black
+                  hover:text-white hover:bg-black
+                  mx-1
+                "
+              >
                 {{ nameButton[2] }}
               </button>
             </div>
             <div class="mb-4 md:mb-0">
-              <button class="py-2 px-6 rounded-lg font-medium border border-black text-black hover:text-white hover:bg-black mx-1">
+              <button
+                class="
+                  py-2
+                  px-6
+                  rounded-lg
+                  font-medium
+                  border border-black
+                  text-black
+                  hover:text-white hover:bg-black
+                  mx-1
+                "
+              >
                 {{ nameButton[3] }}
               </button>
             </div>
@@ -131,7 +200,17 @@
             <hr width="40px" color="white" class="-mt-3" />
           </div>
           <div>
-            <h3 class="md:text-[48px] text-[32px] pt-1.5 pb-10 font-medium md:max-w-[750px] md:leading-[58px] tracking-[0.3px]">
+            <h3
+              class="
+                md:text-[48px]
+                text-[32px]
+                pt-1.5
+                pb-10
+                font-medium
+                md:max-w-[750px] md:leading-[58px]
+                tracking-[0.3px]
+              "
+            >
               Keuntungan menjadi partner kerja pada HJ Corporate
             </h3>
           </div>
@@ -206,6 +285,7 @@ import Portfolio from "~/components/Portfolio.vue";
 import Slide from "../components/Slide.vue";
 import ButtonPrimary from "~/components/ButtonPrimary.vue";
 import ButtonCallAction from "../components/ButtonCallAction.vue";
+import WhatsappButton from "../components/whatsappButton.vue";
 export default {
   components: {
     Navbar,
@@ -215,6 +295,7 @@ export default {
     Slide,
     ButtonPrimary,
     ButtonCallAction,
+    WhatsappButton,
   },
   data() {
     return {

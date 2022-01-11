@@ -3,6 +3,7 @@
     <div class="main">
       <div class="md:px-32 px-6">
         <NavbarNew />
+        <WhatsappButton />
         <div class="grid md:grid-cols-2 gap-x-32 pt-20">
           <div class="md:text-6xl text-[40px] tracking-wide">
             <h2 class="pr-5 font-semibold"><span class="text-about">Tentang</span> kami HJ Corporate</h2>
