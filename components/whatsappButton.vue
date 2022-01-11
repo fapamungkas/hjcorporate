@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="z-50">
     <a href="https://wa.me/081259051310" class="btn-whatsapp-pulse">
       <i class="fab fa-whatsapp"></i>
     </a>
